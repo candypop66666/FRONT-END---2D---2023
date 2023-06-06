@@ -1,0 +1,73 @@
+style.css
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #0E0545;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20 px 0;
+}
+
+.cabecalho-imagem {
+    width: 30%;
+}
+.cabecalho-lista-item:hover {
+    color: rgb(0, 203, 203);
+    text-decoration: underline;
+    }
+    
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+
+#tecnico {
+    background-image: linear-gradient(#0E0545,#0914ab);
+    color: white;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilustra-curso{
+    height: 400px;
+}
+.tecnico-div-conteudo{
+        width: 35%;
+        text-align: center;
+        padding: 50px;
+}         
+.estudante-imagem{
+        height:120px;
+    } 
+.estudante-div{
+    text-align: center;
+}
+.estudante.titulo{
+        text-align:center;
+        padding: 50px
+}
+.estudante-icone{
+    width: 24px;
+}
+#historia {
+    background-image: linear-gradient(#0E0545,#0914ab);
+    color: white;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    background: #151e9b;
+    text-align: center;
+    padding: 50px 0;
+}
